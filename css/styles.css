@@ -1,0 +1,53 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+footer {
+    background-color: #373738;
+    color: white;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+body {
+    background-color: black;
+}
+
+.VPlogo {
+    width: 150px;
+    height: 100px;
+}
