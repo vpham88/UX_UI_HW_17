@@ -11,18 +11,17 @@
 }
 
 nav {
-    width: 73%;
     padding: 1%;
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
-    padding: 20px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
 }
 
 .heroImg {
-    height: 600px;
     padding: 25px;
 }
 
@@ -30,17 +29,15 @@ ul {
     width: 500px;
     margin: 0 auto;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
     background-color: #373738;
     color: white;
-}
-
-footer ul {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 5%;
+    padding: 1%;
 }
 
 body {
@@ -48,6 +45,16 @@ body {
 }
 
 .VPlogo {
-    width: 150px;
-    height: 100px;
+    width: auto;
+    height: 80px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-left: 20px;
+    text-decoration: none;
 }
